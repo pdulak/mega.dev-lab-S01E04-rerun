@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-01
 ---
 
 # Morning digest
@@ -77,3 +78,18 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|-----------|--------|--------|
+| 1 | [Define the digest contract](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/1) | — | claude-code · opus-5.5 · high | 2026-11-01 |
+| 2 | [Read and aggregate nightly run logs](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/2) | #1 | claude-code · opus-5.5 · high | 2026-11-01 |
+| 3 | [Render the nightly digest page](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/3) | #1 | claude-code · haiku-5.5 · default | 2026-11-01 |
+| 4 | [Expose digest rows as JSON](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/4) | #1 | claude-code · haiku-5.5 · default | 2026-11-01 |
+| 5 | [Link status board nights to digests](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/5) | #1 | claude-code · haiku-5.5 · default | 2026-11-01 |
+| 6 | [Test digest routes and edge cases](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/6) | #1 | claude-code · haiku-5.5 · default | 2026-11-01 |
+| 7 | [Publish a marked digest preview](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/7) | #2–#6 | claude-code · opus-5.5 · high | 2026-11-01 |
+| 8 | [Remove the preview marker and archive the plan](https://github.com/pdulak/mega.dev-lab-S01E04-rerun/issues/8) | #7 | claude-code · opus-5.5 · high | 2026-11-01 |
+
+The reviewer looked at the marked preview on 2026-11-01; the same link was re-uploaded with no marker the same day (ADR 0003).
